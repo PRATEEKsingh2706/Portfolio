@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+ height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF8E3;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  max-width: 344px;
+  width: 100%;
+  background-color:#fff ;
+  border-radius: 25px;
+  padding: 26px;
+  box-shadow:0 5px 10px rgba(0, 0, 0, 0.1) ;
+}
+
+.image{
+ position: relative;
+ height: 150px;
+ width: 150px;
+border-radius: 50%;
+  background-color:#D9EDBF ;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+.image .img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.project .text-data{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  color: #030637;
+}
+
+.text-data .name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-data .job{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.project .media{
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+
+}
+.media .link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 9px;
+  background-color:#D9EDBF ;
+  text-decoration: none ;
+
+}
+
+.project .buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 28px ;
+}
+.buttons .button{
+  border-radius: 25px;
+  border: none;
+  margin: 0 10px;
+  padding:8px 25px ;
+  font-size: 15px;
+  font-weight:500 ;
+  cursor: pointer;
+  background-color: #D9EDBF;
+  transition: all 0.3s ease;
+}
+.buttons .button:hover{
+  background-color:#D9EDBF;
+
+}
